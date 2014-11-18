@@ -8,8 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = EasyAudioSequencer::VERSION
   spec.authors       = ["Jonathan Slate"]
   spec.email         = ["jslate@patientslikeme.com"]
-  spec.summary       = %q{Packaging lsegal's example sequencer from his easy_audio into a gem.}
-  spec.homepage      = ""
+  spec.summary       = %q{A ruby sequencer using easy_audio}
+  spec.description   = %q{I took the sample sequencer code from lsegal's easy_audio gem and created a gem out of it.}
+  spec.homepage      = "https://github.com/jslate/easy_audio_sequencer"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,5 +19,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.5"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake", '~> 0'
 end
