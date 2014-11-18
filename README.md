@@ -2,6 +2,8 @@
 
 I took the sample sequencer code from lsegal's easy_audio gem and created a gem out of it.
 
+https://github.com/lsegal/easy_audio/
+
 ## Installation
 
 Add this line to your application's Gemfile:
